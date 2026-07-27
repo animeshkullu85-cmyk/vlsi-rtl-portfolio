@@ -25,69 +25,131 @@ toward SoC-level design and silicon submission.
 - **Silicon:** TinyTapeout (Sky130 PDK)
 
 ## Repo structure
-vlsi-rtl-portfolio/
+vlsi-rtl-portfolio/ 
 ├── README.md                          ← master overview (template below)
+
 ├── LICENSE                            ← MIT recommended
+
 ├── .gitignore                         ← ignore sim junk (see §3)
+
 │
+
 ├── 01-8bit-alu/
+
 │   ├── rtl/
+
 │   │   └── alu_8bit.v
+
 │   ├── tb/
+
 │   │   └── alu_8bit_tb.v
+
 │   ├── sim/                           ← waveform dumps, logs (gitignored)
+
 │   ├── synth/                         ← OpenLANE run output lives here
+
 │   │   ├── config.json
+
 │   │   └── reports/
+
 │   └── README.md
+
 │
+
 ├── 02-uart-txrx/
+
 │   ├── rtl/
+
 │   │   ├── uart_tx.v
+
 │   │   └── uart_rx.v
+
 │   ├── tb/
+
 │   │   └── uart_tb.v
+
 │   └── README.md
+
 │
+
 ├── 03-spi-master/
+
 │   ├── rtl/
+
 │   │   └── spi_master.v
+
 │   ├── tb/
+
 │   │   └── spi_master_tb.v
+
 │   └── README.md
+
 │
+
 ├── 04-fpga-pwm-controller/
+
 │   ├── rtl/
+
 │   │   └── pwm_controller.v
+
 │   ├── tb/
+
 │   ├── constraints/                   ← .xdc / pin constraint files
+
 │   └── README.md
+
 │
+
 ├── 05-axi4-lite-slave/
+
 │   ├── rtl/
+
 │   │   └── axi4_lite_slave.v
+
 │   ├── tb/
+
 │   └── README.md
+
 │
+
 ├── 06-fir-filter/
+
 │   ├── rtl/
+
 │   │   └── fir_filter.v
+
 │   ├── tb/
+
 │   ├── coeffs/                        ← filter coefficient files/scripts
+
 │   └── README.md
+
 │
+
 ├── 07-sv-testbench-uart/
+
 │   ├── tb/
+
 │   │   ├── uart_env/                  ← SV classes: driver, monitor, scoreboard
+
 │   │   └── uart_top_tb.sv
+
 │   └── README.md
+
 │
+
 ├── 08-tinytapeout-submission/
+
 │   ├── src/                           ← TinyTapeout project template files
+
 │   ├── docs/
+
 │   │   └── info.md                    ← TT's required project description
+
 │   └── README.md
+
 │
+
 └── docs/
     └── images/                        ← block diagrams, waveform screenshots
 
