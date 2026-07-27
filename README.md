@@ -8,13 +8,13 @@ toward SoC-level design and silicon submission.
 
 | # | Project | Description | Status |
 |---|---------|-------------|--------|
-| 01 | [8-bit ALU](./01-8bit-alu) | Arithmetic/logic unit, foundation module, taken through OpenLANE synthesis | ✅ Complete |
-| 02 | [UART Tx/Rx](./02-uart-txrx) | UART transmitter/receiver, protocol proof of concept | ✅ Complete |
-| 03 | [SPI Master](./03-spi-master) | SPI master supporting all 4 clock/phase modes | ✅ Complete |
-| 04 | [FPGA PWM Controller](./04-fpga-pwm-controller) | PWM generator bridging RTL design to real FPGA hardware | ✅ Complete |
-| 05 | [AXI4-Lite Slave](./05-axi4-lite-slave) | AXI4-Lite slave interface, SoC-level design differentiator | 🔧 In progress |
-| 06 | [FIR Filter](./06-fir-filter) | Configurable FIR filter, DSP building block | 🔧 In progress |
-| 07 | [SV Testbench (UART)](./07-sv-testbench-uart) | Class-based SystemVerilog verification environment | 🔧 In progress |
+| 01 | [8-bit ALU](./01-8bit-alu) | Arithmetic/logic unit, foundation module, taken through OpenLANE synthesis | 🚀 Planned |
+| 02 | [UART Tx/Rx](./02-uart-txrx) | UART transmitter/receiver, protocol proof of concept | 🚀 Planned |
+| 03 | [SPI Master](./03-spi-master) | SPI master supporting all 4 clock/phase modes |🚀 Planned|
+| 04 | [FPGA PWM Controller](./04-fpga-pwm-controller) | PWM generator bridging RTL design to real FPGA hardware | 🚀 Planned |
+| 05 | [AXI4-Lite Slave](./05-axi4-lite-slave) | AXI4-Lite slave interface, SoC-level design differentiator |🚀 Planned |
+| 06 | [FIR Filter](./06-fir-filter) | Configurable FIR filter, DSP building block | 🚀 Planned |
+| 07 | [SV Testbench (UART)](./07-sv-testbench-uart) | Class-based SystemVerilog verification environment | 🚀 Planned |
 | 08 | [TinyTapeout Submission](./08-tinytapeout-submission) | RTL taped out to real silicon via TinyTapeout | 🚀 Planned |
 
 ## Toolchain
